@@ -1,0 +1,40 @@
+{
+  "_comment": "Golden set for input/ — line totals computed by hand from the rate pack and the Camissa email (nett USD). null = the line must be unresolved. Line ids: s<seq> per quotation service, .r<n> per room line, .x<n> per 'Included' extra. Values are pinned; the confirmed/assumed split is the matcher's judgement and is not pinned (indicative is deterministic: validity vs travel dates). Read by `bun run costing.ts --check`.",
+  "lines": {
+    "s01": 225,
+    "s02": 210,
+    "s02.x1": 65,
+    "s03.r1": 1500,
+    "s03.r2": 920,
+    "s04": 475,
+    "s05": 480,
+    "s06": 725,
+    "s06.x1": 140,
+    "s07": 210,
+    "s07.x1": 65,
+    "s08": null,
+    "s09": 0,
+    "s10.r1": 1780,
+    "s10.r2": 1520,
+    "s10.x1": 280,
+    "s11": 825,
+    "s11.x1": 40,
+    "s12.r1": 13350,
+    "s12.x1": 525,
+    "s12.x2": 0,
+    "s13": 950,
+    "s13.x1": 125,
+    "s13.x2": 40,
+    "s14": null,
+    "s15": 1975,
+    "s16.r1": 2340,
+    "s16.r2": null,
+    "s17": 1975,
+    "s18": null,
+    "s19": null
+  },
+  "totals": {
+    "indicative": 3950,
+    "allCosted": 30740
+  }
+}

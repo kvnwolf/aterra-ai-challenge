@@ -1,0 +1,325 @@
+{
+  "matchCount": 19,
+  "matches": [
+    {
+      "alternatives": [],
+      "assumptions": [],
+      "extras": [],
+      "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-one-way-assistance-meet-greet",
+      "reason": "Cape Town one-way meet & greet assistance, charged per arrival or departure, matches the booked Cape Town arrival assistance exactly.",
+      "rooms": [],
+      "sequence": 1
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/cape-town-transfer-cia-zone-1-night-with-guide"
+      ],
+      "assumptions": [],
+      "extras": [
+        {
+          "assumptions": [
+            "The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-trailer-supplement",
+          "reason": "Note 2a prices a trailer supplement per group charged per transfer.",
+          "description": "Trailer 6+ Pax per group"
+        }
+      ],
+      "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-transfer-cia-zone-1-day-with-guide",
+      "reason": "Cape Town airport to Zone 1 (which covers the Atlantic Seaboard/City Bowl) with guide in the 06H00–21H00 window matches the booked transfer exactly.",
+      "rooms": [],
+      "sequence": 2
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/camissa-boutique-hotel-family-suite",
+        "supplier-rate-pack-sa-2027-v3/camissa-boutique-hotel-classic-room",
+        "supplier-email-camissa-2027-rates/camissa-boutique-hotel-deluxe-sea-facing"
+      ],
+      "assumptions": [],
+      "extras": [],
+      "rateId": null,
+      "reason": "Two room lines, so one pick per room.",
+      "rooms": [
+        {
+          "assumptions": [],
+          "rateId": "supplier-email-camissa-2027-rates/camissa-boutique-hotel-family-suite",
+          "reason": "The supplier's corrected 2027 rate email for the Camissa Boutique Hotel Family Suite on B&B states it supersedes anything previously on file for 2027 arrivals.",
+          "roomType": "Family Suite"
+        },
+        {
+          "assumptions": [],
+          "rateId": "supplier-email-camissa-2027-rates/camissa-boutique-hotel-classic-room",
+          "reason": "The supplier's corrected 2027 rate email for the Camissa Boutique Hotel Classic Room on B&B supersedes the earlier rate-pack figure.",
+          "roomType": "Classic Room"
+        }
+      ],
+      "sequence": 3
+    },
+    {
+      "alternatives": [],
+      "assumptions": [],
+      "extras": [],
+      "rateId": "supplier-rate-pack-sa-2027-v3/slow-walks-hikes-rise-and-climb-table-mountain",
+      "reason": "SLOW Walks & Hikes half day Rise & Climb Table Mountain hike, per person, matches the booked activity exactly.",
+      "rooms": [],
+      "sequence": 4
+    },
+    {
+      "alternatives": [],
+      "assumptions": [],
+      "extras": [],
+      "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-full-day-peninsula-scenic-tour-private",
+      "reason": "Full Day Peninsula Scenic Tour, private, in Cape Town matches the booked tour; the 5-pax party is within the 7-pax vehicle maximum.",
+      "rooms": [],
+      "sequence": 5
+    },
+    {
+      "alternatives": [],
+      "assumptions": [],
+      "extras": [
+        {
+          "assumptions": [],
+          "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-custom-private-tour-per-group-extra",
+          "reason": "Note 2b prices the compulsory Per Group Extra on the Custom Private Tour.",
+          "description": "Per Group Extra per group"
+        }
+      ],
+      "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-custom-private-tour-full-day",
+      "reason": "Cape Town Custom Private Tour, full day, priced per person, matches the booked day tour.",
+      "rooms": [],
+      "sequence": 6
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/cape-town-transfer-cia-zone-1-night-with-guide"
+      ],
+      "assumptions": [],
+      "extras": [
+        {
+          "assumptions": [
+            "The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-trailer-supplement",
+          "reason": "Note 2a prices a trailer supplement per group charged per transfer.",
+          "description": "Trailer 6+ Pax per group"
+        }
+      ],
+      "rateId": "supplier-rate-pack-sa-2027-v3/cape-town-transfer-cia-zone-1-day-with-guide",
+      "reason": "The same Zone 1 to Cape Town airport routing with guide in the daytime window, run in the reverse direction, is priced by this per-vehicle one-way rate.",
+      "rooms": [],
+      "sequence": 7
+    },
+    {
+      "alternatives": [],
+      "assumptions": [],
+      "extras": [],
+      "rateId": null,
+      "reason": "The rate book contains no Zambezi Air (or any air ticket) rates for Cape Town to Hoedspruit.",
+      "rooms": [],
+      "sequence": 8
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/lowveld-transfer-hds-to-marula-reserve-lodges"
+      ],
+      "assumptions": [],
+      "extras": [],
+      "rateId": "supplier-rate-pack-sa-2027-v3/marula-river-lodge-complimentary-hds-road-transfer",
+      "reason": "Marula River Lodge includes the complimentary scheduled road transfer from Hoedspruit Airport at no charge for stays of two nights or more, which this 2-night stay is.",
+      "rooms": [],
+      "sequence": 9
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/marula-river-lodge-river-lodge-standard"
+      ],
+      "assumptions": [],
+      "extras": [
+        {
+          "assumptions": [],
+          "rateId": "supplier-rate-pack-sa-2027-v3/marula-reserve-conservation-levy",
+          "reason": "The compulsory Marula Reserve Conservation Levy is charged per person per night and is not included in the room rates.",
+          "description": "Consv Levy compulsory pax"
+        }
+      ],
+      "rateId": null,
+      "reason": "Two room lines, so one pick per room.",
+      "rooms": [
+        {
+          "assumptions": [
+            "Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/marula-river-lodge-family-chalet",
+          "reason": "Marula River Lodge Family Chalet on Fully Inclusive (Selected beverages) matches the booked unit and basis.",
+          "roomType": "Family Chalet"
+        },
+        {
+          "assumptions": [
+            "Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/marula-river-lodge-tented-pool-suite",
+          "reason": "Marula River Lodge Tented Pool Suite on Fully Inclusive (Selected beverages) matches the booked unit and basis.",
+          "roomType": "Tented Pool Suite"
+        }
+      ],
+      "sequence": 10
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/lowveld-transfer-hds-to-marula-reserve-lodges"
+      ],
+      "assumptions": [
+        "The transfer starts at Marula River Lodge rather than at HDS as in the rate's routing, so the HDS to Kudu Sands rate is applied to this lodge-to-lodge leg."
+      ],
+      "extras": [
+        {
+          "assumptions": [
+            "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/lowveld-vehicle-entrance-fee",
+          "reason": "Reserve gate Vehicle Entrance Fee is charged per group per entry as an additional item on Lowveld transfers.",
+          "description": "Vehicle Entrance Fee per group"
+        }
+      ],
+      "rateId": "supplier-rate-pack-sa-2027-v3/lowveld-transfer-hds-to-kudu-sands-lodges",
+      "reason": "Transfers & Tours per person one-way rate to the Kudu Sands lodges, as named in the booked service.",
+      "rooms": [],
+      "sequence": 11
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/kudu-ridge-luxury-suite-single-occupancy",
+        "supplier-rate-pack-sa-2027-v3/kudu-ridge-ivory-presidential-suite"
+      ],
+      "assumptions": [],
+      "extras": [
+        {
+          "assumptions": [],
+          "rateId": "supplier-rate-pack-sa-2027-v3/kudu-sands-conservation-levy",
+          "reason": "The compulsory Kudu Sands Conservation Levy is charged per person per night in addition to the suite rates.",
+          "description": "Conservation Levy compulsory pax"
+        },
+        {
+          "assumptions": [
+            "Note 4a says triple occupancy in a Luxury Suite is available on request, so confirmation of the triple is decided at booking."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/kudu-ridge-luxury-suite",
+          "reason": "Note 4a states no supplement and no reduction applies for the third guest, who is charged at the standard Luxury Suite per person sharing rate.",
+          "description": "Triple per group"
+        }
+      ],
+      "rateId": "supplier-rate-pack-sa-2027-v3/kudu-ridge-luxury-suite",
+      "reason": "Kudu Ridge Luxury Suite on Fully Inclusive (Selected Beverages), quoted per person sharing per night, matches the booked room line.",
+      "rooms": [],
+      "sequence": 12
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/lowveld-transfer-hds-to-kudu-sands-lodges"
+      ],
+      "assumptions": [],
+      "extras": [
+        {
+          "assumptions": [
+            "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/lowveld-entrance-fee-per-pax",
+          "reason": "Reserve gate Entrance Fee is charged per pax per entry as an additional item.",
+          "description": "Entrance Fee per pax"
+        },
+        {
+          "assumptions": [
+            "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator."
+          ],
+          "rateId": "supplier-rate-pack-sa-2027-v3/lowveld-vehicle-entrance-fee",
+          "reason": "Reserve gate Vehicle Entrance Fee is charged per group per entry as an additional item.",
+          "description": "Vehicle Entrance Fee per group"
+        }
+      ],
+      "rateId": "supplier-rate-pack-sa-2027-v3/lowveld-transfer-kudu-sands-lodges-to-mqp",
+      "reason": "Transfers & Tours per person one-way between the Kudu Sands lodges and MQP (Kruger Mpumalanga) matches this routing in the direction booked.",
+      "rooms": [],
+      "sequence": 13
+    },
+    {
+      "alternatives": [],
+      "assumptions": [],
+      "extras": [],
+      "rateId": null,
+      "reason": "The rate book holds no Zambezi Air or other air ticket rate for Nelspruit to Vilanculos.",
+      "rooms": [],
+      "sequence": 14
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/mozambique-speedboat-transfer-vnx-benguerra"
+      ],
+      "assumptions": [
+        "The only helicopter rate is a 2025 tariff carried forward and described as indicative pending unreleased 2027 tariffs, so it must be reconfirmed."
+      ],
+      "extras": [],
+      "rateId": "supplier-rate-pack-sa-2027-v3/mozambique-helicopter-transfer-vnx-benguerra",
+      "reason": "Helicopter transfer VNX to Benguerra island lodges, per person per way, matches the booked arrival transfer to Ilha Azul on Benguerra.",
+      "rooms": [],
+      "sequence": 15
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/ilha-azul-presidential-villa"
+      ],
+      "assumptions": [],
+      "extras": [],
+      "rateId": null,
+      "reason": "Two room lines, so one pick per room.",
+      "rooms": [
+        {
+          "assumptions": [],
+          "rateId": "supplier-rate-pack-sa-2027-v3/ilha-azul-beach-villa",
+          "reason": "Ilha Azul Beach Villa on Fully Inclusive, per villa per night, matches the booked villa and basis.",
+          "roomType": "Beach Villa"
+        },
+        {
+          "assumptions": [],
+          "rateId": null,
+          "reason": "The rate book lists only Beach Villa, Infinity Beach Villa and Presidential Villa for Ilha Azul; there is no 'Beach Villa Grande' rate to price this line.",
+          "roomType": "Beach Villa Grande"
+        }
+      ],
+      "sequence": 16
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/mozambique-speedboat-transfer-vnx-benguerra"
+      ],
+      "assumptions": [
+        "The only helicopter rate is a 2025 tariff carried forward and described as indicative pending unreleased 2027 tariffs, so it must be reconfirmed."
+      ],
+      "extras": [],
+      "rateId": "supplier-rate-pack-sa-2027-v3/mozambique-helicopter-transfer-vnx-benguerra",
+      "reason": "The same VNX–Benguerra helicopter rate, per person per way, prices the return leg from the island lodge to Vilanculos.",
+      "rooms": [],
+      "sequence": 17
+    },
+    {
+      "alternatives": [],
+      "assumptions": [],
+      "extras": [],
+      "rateId": null,
+      "reason": "No air ticket rates for Zambezi Air Vilanculos to Johannesburg exist in the rate book.",
+      "rooms": [],
+      "sequence": 18
+    },
+    {
+      "alternatives": [
+        "supplier-rate-pack-sa-2027-v3/cape-town-one-way-assistance-meet-greet"
+      ],
+      "assumptions": [],
+      "extras": [],
+      "rateId": null,
+      "reason": "The only meet & greet assistance rate is listed under Cape Town — Touring & Transfers and does not price a Johannesburg movement; no Johannesburg assistance rate exists.",
+      "rooms": [],
+      "sequence": 19
+    }
+  ]
+}

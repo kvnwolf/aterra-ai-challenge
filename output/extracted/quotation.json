@@ -1,0 +1,591 @@
+{
+  "client": "Halloran Family of 5",
+  "excludes": [
+    "Airfares and airport taxes",
+    "Any other services/expenses not accounted for in the quotation",
+    "Extras at hotels and meals not mentioned",
+    "Visa costs, travel insurance and tipping"
+  ],
+  "includes": [
+    "Service/s as specified"
+  ],
+  "quotationDate": "2026-08-16",
+  "ref": "MRA-2027-0641",
+  "serviceCount": 19,
+  "services": [
+    {
+      "category": "assistance",
+      "date": {
+        "end": null,
+        "start": "2027-07-05"
+      },
+      "description": "Meet & Greet:\nOne Way Assistance\nPer Arrival or Departure",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Per Arrival or Departure",
+      "location": "Cape Town",
+      "nights": null,
+      "notes": [],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Monday05 Jul 27\n Meet & Greet:\n One Way Assistance\n Per Arrival or Departure",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, first service"
+      },
+      "rooms": [],
+      "sequence": 1,
+      "supplier": null
+    },
+    {
+      "category": "transfer",
+      "date": {
+        "end": null,
+        "start": "2027-07-05"
+      },
+      "description": "Transfer:\nTransfer CIA to Zone 1 (06H00-21H00) - with Guide\nPer Vehicle One Way",
+      "dropoff": "The Camissa Boutique Hotel",
+      "extras": [
+        {
+          "description": "Trailer 6+ Pax per group",
+          "literalMultiplier": 1,
+          "per": "group"
+        }
+      ],
+      "literalQuantity": null,
+      "literalUnit": "Per Vehicle One Way",
+      "location": "Cape Town",
+      "nights": null,
+      "notes": [],
+      "pickup": "CPT",
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Monday05 Jul 27\n Transfer:\n Transfer CIA to Zone 1 (06H00-21H00) - with Guide\n Per Vehicle One Way\n Pick up: CPT\n Drop off: The Camissa Boutique Hotel\n\n  Included: 1 x Trailer 6+ Pax per group",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, second service"
+      },
+      "rooms": [],
+      "sequence": 2,
+      "supplier": null
+    },
+    {
+      "category": "accommodation",
+      "date": {
+        "end": "2027-07-09",
+        "start": "2027-07-05"
+      },
+      "description": "Accommodation: The Camissa Boutique Hotel\n1 x Family Suite on a Bed and Breakfast basis\n1 x Classic Room on a Bed and Breakfast basis",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": null,
+      "location": "Cape Town",
+      "nights": 4,
+      "notes": [
+        "In: Monday 05 Jul 27 Out: Friday 09 Jul 27"
+      ],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Monday 05 Jul 27\n In: Monday 05 Jul 27 Out: Friday 09 Jul 27\n Accommodation: The Camissa Boutique Hotel\n 1 x Family Suite on a Bed and Breakfast basis\n 1 x Classic Room on a Bed and Breakfast basis",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, accommodation"
+      },
+      "rooms": [
+        {
+          "basis": "Bed and Breakfast",
+          "count": 1,
+          "roomType": "Family Suite"
+        },
+        {
+          "basis": "Bed and Breakfast",
+          "count": 1,
+          "roomType": "Classic Room"
+        }
+      ],
+      "sequence": 3,
+      "supplier": "The Camissa Boutique Hotel"
+    },
+    {
+      "category": "activity",
+      "date": {
+        "end": null,
+        "start": "2027-07-06"
+      },
+      "description": "Activity:SLOW Walks & Hikes\nHalf Day Rise & Climb - Table Mountain Hike\nHalf Day (per person)",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Half Day (per person)",
+      "location": "Cape Town",
+      "nights": null,
+      "notes": [],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Tuesday06 Jul 27\n  Activity:SLOW Walks & Hikes\n  Half Day Rise & Climb - Table Mountain Hike\n  Half Day (per person)",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, 06 Jul activity"
+      },
+      "rooms": [],
+      "sequence": 4,
+      "supplier": "SLOW Walks & Hikes"
+    },
+    {
+      "category": "activity",
+      "date": {
+        "end": null,
+        "start": "2027-07-07"
+      },
+      "description": "Full Day Peninsula Scenic Tour\nPrivate Tour",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Private Tour",
+      "location": "Cape Town",
+      "nights": null,
+      "notes": [],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Wednesday07 Jul 27\n Full Day Peninsula Scenic Tour\n Private Tour",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, 07 Jul tour"
+      },
+      "rooms": [],
+      "sequence": 5,
+      "supplier": null
+    },
+    {
+      "category": "activity",
+      "date": {
+        "end": null,
+        "start": "2027-07-08"
+      },
+      "description": "Day Tour:\nCustom Private Tour\nPer Person",
+      "dropoff": null,
+      "extras": [
+        {
+          "description": "Per Group Extra per group",
+          "literalMultiplier": 1,
+          "per": "group"
+        }
+      ],
+      "literalQuantity": null,
+      "literalUnit": "Per Person",
+      "location": "Cape Town",
+      "nights": null,
+      "notes": [],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Thursday08 Jul 27\n  Day Tour:\n  Custom Private Tour\n  Per Person\n  Included: 1 x Per Group Extra per group",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, 08 Jul day tour"
+      },
+      "rooms": [],
+      "sequence": 6,
+      "supplier": null
+    },
+    {
+      "category": "transfer",
+      "date": {
+        "end": null,
+        "start": "2027-07-09"
+      },
+      "description": "Transfer:\nTransfer CIA to Zone 1 (06H00-21H00) - with Guide\nPer Vehicle One Way",
+      "dropoff": "CPT",
+      "extras": [
+        {
+          "description": "Trailer 6+ Pax per group",
+          "literalMultiplier": 1,
+          "per": "group"
+        }
+      ],
+      "literalQuantity": null,
+      "literalUnit": "Per Vehicle One Way",
+      "location": "Cape Town",
+      "nights": null,
+      "notes": [],
+      "pickup": "The Camissa Boutique Hotel",
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Friday09 Jul 27\n  Transfer:\n  Transfer CIA to Zone 1 (06H00-21H00) - with Guide\n  Per Vehicle One Way\n  Pick up: The Camissa Boutique Hotel\n  Drop off: CPT\n\n  Included: 1 x Trailer 6+ Pax per group",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, 09 Jul transfer"
+      },
+      "rooms": [],
+      "sequence": 7,
+      "supplier": null
+    },
+    {
+      "category": "flight",
+      "date": {
+        "end": null,
+        "start": "2027-07-09"
+      },
+      "description": "Flight: Zambezi Air\nPer person\nDeparture: 4Z, Cape Town\nArrival: 4Z, Hoedspruit",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Per person",
+      "location": "Cape Town",
+      "nights": null,
+      "notes": [
+        "Departure: 4Z, Cape Town",
+        "Arrival: 4Z, Hoedspruit"
+      ],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Friday09 Jul 27\n  Flight: Zambezi Air\n  Per person\n  Departure: 4Z, Cape Town\n  Arrival: 4Z, Hoedspruit",
+        "location": "TRAVEL ARRANGEMENTS > Cape Town, 09 Jul flight"
+      },
+      "rooms": [],
+      "sequence": 8,
+      "supplier": "Zambezi Air"
+    },
+    {
+      "category": "transfer",
+      "date": {
+        "end": null,
+        "start": "2027-07-09"
+      },
+      "description": "Transfer:\nComplimentary scheduled transfer",
+      "dropoff": "Marula River Lodge",
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": null,
+      "location": "Marula Reserve",
+      "nights": null,
+      "notes": [
+        "Collect 11h20, 12h10, 13h20 / Depart 09h30, 10h30, 11h00"
+      ],
+      "pickup": "HDS",
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Friday09 Jul 27\n  Transfer:\n  Complimentary scheduled transfer\n  Collect 11h20, 12h10, 13h20 / Depart 09h30, 10h30, 11h00\n  Pick up: HDS\n  Drop off: Marula River Lodge",
+        "location": "TRAVEL ARRANGEMENTS > Marula Reserve, first service"
+      },
+      "rooms": [],
+      "sequence": 9,
+      "supplier": null
+    },
+    {
+      "category": "accommodation",
+      "date": {
+        "end": "2027-07-11",
+        "start": "2027-07-09"
+      },
+      "description": "Accommodation: Marula River Lodge\nFamily Chalet on a Fully Inclusive (Selected beverages) basis\nTented Pool Suite on a Fully Inclusive (Selected beverages) basis",
+      "dropoff": null,
+      "extras": [
+        {
+          "description": "Consv Levy compulsory pax",
+          "literalMultiplier": 2,
+          "per": "pax"
+        }
+      ],
+      "literalQuantity": null,
+      "literalUnit": null,
+      "location": "Marula Reserve",
+      "nights": 2,
+      "notes": [
+        "In: Friday 09 Jul 27 Out: Sunday 11 Jul 27"
+      ],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Friday 09 Jul 27\n  In: Friday 09 Jul 27 Out: Sunday 11 Jul 27\n  Accommodation: Marula River Lodge\n  Family Chalet on a Fully Inclusive (Selected beverages) basis\n  Tented Pool Suite on a Fully Inclusive (Selected beverages) basis\n\n  Included: 2 x Consv Levy compulsory pax",
+        "location": "TRAVEL ARRANGEMENTS > Marula Reserve, accommodation"
+      },
+      "rooms": [
+        {
+          "basis": "Fully Inclusive (Selected beverages)",
+          "count": 1,
+          "roomType": "Family Chalet"
+        },
+        {
+          "basis": "Fully Inclusive (Selected beverages)",
+          "count": 1,
+          "roomType": "Tented Pool Suite"
+        }
+      ],
+      "sequence": 10,
+      "supplier": "Marula River Lodge"
+    },
+    {
+      "category": "transfer",
+      "date": {
+        "end": null,
+        "start": "2027-07-11"
+      },
+      "description": "Transfer:Transfers & Tours\nHDS to Kudu Sands Lodges\nPer Person One Way",
+      "dropoff": "Kudu Ridge Private Game Reserve",
+      "extras": [
+        {
+          "description": "Vehicle Entrance Fee per group",
+          "literalMultiplier": 1,
+          "per": "group"
+        }
+      ],
+      "literalQuantity": null,
+      "literalUnit": "Per Person One Way",
+      "location": "Hoedspruit",
+      "nights": null,
+      "notes": [],
+      "pickup": "Marula River Lodge",
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Sunday11 Jul 27\n  Transfer:Transfers & Tours\n  HDS to Kudu Sands Lodges\n  Per Person One Way\n  Pick up: Marula River Lodge\n  Drop off: Kudu Ridge Private Game Reserve\n\n  Included: 1 x Vehicle Entrance Fee per group",
+        "location": "TRAVEL ARRANGEMENTS > Hoedspruit, first service"
+      },
+      "rooms": [],
+      "sequence": 11,
+      "supplier": "Transfers & Tours"
+    },
+    {
+      "category": "accommodation",
+      "date": {
+        "end": "2027-07-14",
+        "start": "2027-07-11"
+      },
+      "description": "Accommodation: Kudu Ridge Private Game Reserve\n2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis",
+      "dropoff": null,
+      "extras": [
+        {
+          "description": "Conservation Levy compulsory pax",
+          "literalMultiplier": 3,
+          "per": "pax"
+        },
+        {
+          "description": "Triple per group",
+          "literalMultiplier": 1,
+          "per": "group"
+        }
+      ],
+      "literalQuantity": null,
+      "literalUnit": null,
+      "location": "Hoedspruit",
+      "nights": 3,
+      "notes": [
+        "In: Sunday 11 Jul 27 Out: Wednesday 14 Jul 27"
+      ],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Sunday 11 Jul 27\n  In: Sunday 11 Jul 27 Out: Wednesday 14 Jul 27\n  Accommodation: Kudu Ridge Private Game Reserve\n  2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis\n\n  Included: 3 x Conservation Levy compulsory pax\n  Included: 1 x Triple per group",
+        "location": "TRAVEL ARRANGEMENTS > Hoedspruit, accommodation"
+      },
+      "rooms": [
+        {
+          "basis": "Fully Inclusive (Selected Beverages)",
+          "count": 2,
+          "roomType": "Luxury Suite"
+        }
+      ],
+      "sequence": 12,
+      "supplier": "Kudu Ridge Private Game Reserve"
+    },
+    {
+      "category": "transfer",
+      "date": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "description": "Transfer:Transfers & Tours\nKMIA to Kudu Sands Lodges\nPer Person One Way",
+      "dropoff": "MQP",
+      "extras": [
+        {
+          "description": "Entrance Fee per pax",
+          "literalMultiplier": 1,
+          "per": "pax"
+        },
+        {
+          "description": "Vehicle Entrance Fee per group",
+          "literalMultiplier": 1,
+          "per": "group"
+        }
+      ],
+      "literalQuantity": null,
+      "literalUnit": "Per Person One Way",
+      "location": "Kruger Mpumalanga Airport",
+      "nights": null,
+      "notes": [],
+      "pickup": "Kudu Ridge Private Game Reserve",
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Wednesday14 Jul 27\n Transfer:Transfers & Tours\n KMIA to Kudu Sands Lodges\n Per Person One Way\n Pick up: Kudu Ridge Private Game Reserve\n Drop off: MQP\n\n  Included: 1 x Entrance Fee per pax\n  Included: 1 x Vehicle Entrance Fee per group",
+        "location": "TRAVEL ARRANGEMENTS > Kruger Mpumalanga Airport"
+      },
+      "rooms": [],
+      "sequence": 13,
+      "supplier": "Transfers & Tours"
+    },
+    {
+      "category": "flight",
+      "date": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "description": "Flight: Zambezi Air\nFlights\nPer person\nDeparture: 4Z, Nelspruit\nArrival: 4Z, Vilancoulos",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Per person",
+      "location": "Nelspruit",
+      "nights": null,
+      "notes": [
+        "Departure: 4Z, Nelspruit",
+        "Arrival: 4Z, Vilancoulos"
+      ],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Wednesday14 Jul 27\n Flight: Zambezi Air\n Flights\n  Per person\n  Departure: 4Z, Nelspruit\n  Arrival: 4Z, Vilancoulos",
+        "location": "TRAVEL ARRANGEMENTS > Nelspruit"
+      },
+      "rooms": [],
+      "sequence": 14,
+      "supplier": "Zambezi Air"
+    },
+    {
+      "category": "transfer",
+      "date": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "description": "Transfer:\nHelicopter Transfer\nPer Person Per Way",
+      "dropoff": "Ilha Azul Beach Lodge",
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Per Person Per Way",
+      "location": "Benguerra",
+      "nights": null,
+      "notes": [],
+      "pickup": "VNX",
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Wednesday14 Jul 27\n Transfer:\n Helicopter Transfer\n Per Person Per Way\n Pick up: VNX\n Drop off: Ilha Azul Beach Lodge",
+        "location": "TRAVEL ARRANGEMENTS > Benguerra, first service"
+      },
+      "rooms": [],
+      "sequence": 15,
+      "supplier": null
+    },
+    {
+      "category": "accommodation",
+      "date": {
+        "end": "2027-07-17",
+        "start": "2027-07-14"
+      },
+      "description": "Accommodation: Ilha Azul Beach Lodge\n1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": null,
+      "location": "Benguerra",
+      "nights": 3,
+      "notes": [
+        "In: Wednesday 14 Jul 27 Out: Saturday 17 Jul 27"
+      ],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Wednesday 14 Jul 27\n In: Wednesday 14 Jul 27 Out: Saturday 17 Jul 27\n Accommodation: Ilha Azul Beach Lodge\n 1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis",
+        "location": "TRAVEL ARRANGEMENTS > Benguerra, accommodation"
+      },
+      "rooms": [
+        {
+          "basis": "Fully Inclusive",
+          "count": 1,
+          "roomType": "Beach Villa"
+        },
+        {
+          "basis": "Fully Inclusive",
+          "count": 1,
+          "roomType": "Beach Villa Grande"
+        }
+      ],
+      "sequence": 16,
+      "supplier": "Ilha Azul Beach Lodge"
+    },
+    {
+      "category": "transfer",
+      "date": {
+        "end": null,
+        "start": "2027-07-17"
+      },
+      "description": "Transfer:\nHelicopter Transfer\nPer Person Per Way",
+      "dropoff": "VNX",
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Per Person Per Way",
+      "location": "Benguerra",
+      "nights": null,
+      "notes": [],
+      "pickup": "Ilha Azul Beach Lodge",
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Saturday17 Jul 27\n  Transfer:\n  Helicopter Transfer\n  Per Person Per Way\n  Pick up: Ilha Azul Beach Lodge\n  Drop off: VNX",
+        "location": "TRAVEL ARRANGEMENTS > Benguerra, last service"
+      },
+      "rooms": [],
+      "sequence": 17,
+      "supplier": null
+    },
+    {
+      "category": "flight",
+      "date": {
+        "end": null,
+        "start": "2027-07-17"
+      },
+      "description": "Flight: Zambezi Air\nDeparture: 4Z, Vilancoulos\nArrival: 4Z, Johannesburg",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": null,
+      "location": "Vilancoulos",
+      "nights": null,
+      "notes": [
+        "Departure: 4Z, Vilancoulos",
+        "Arrival: 4Z, Johannesburg"
+      ],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Saturday17 Jul 27\n  Flight: Zambezi Air\n  Departure: 4Z, Vilancoulos\n  Arrival: 4Z, Johannesburg",
+        "location": "TRAVEL ARRANGEMENTS > Vilancoulos"
+      },
+      "rooms": [],
+      "sequence": 18,
+      "supplier": "Zambezi Air"
+    },
+    {
+      "category": "assistance",
+      "date": {
+        "end": null,
+        "start": "2027-07-17"
+      },
+      "description": "Meet & Greet:\nOne Way Assistance\nPer Arrival or Departure",
+      "dropoff": null,
+      "extras": [],
+      "literalQuantity": null,
+      "literalUnit": "Per Arrival or Departure",
+      "location": "Johannesburg",
+      "nights": null,
+      "notes": [],
+      "pickup": null,
+      "provenance": {
+        "document": "MRA-2027-0641-Halloran-operational-quotation.pdf",
+        "excerpt": "Saturday17 Jul 27\n  Meet & Greet:\n  One Way Assistance\n  Per Arrival or Departure",
+        "location": "TRAVEL ARRANGEMENTS > Johannesburg"
+      },
+      "rooms": [],
+      "sequence": 19,
+      "supplier": null
+    }
+  ],
+  "travelDates": {
+    "end": "2027-07-17",
+    "start": "2027-07-05"
+  },
+  "travellers": {
+    "adults": 5,
+    "children": 0
+  }
+}

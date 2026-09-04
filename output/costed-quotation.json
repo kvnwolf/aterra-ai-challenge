@@ -1,0 +1,1700 @@
+{
+  "client": "Halloran Family of 5",
+  "currency": "USD",
+  "generated": {
+    "at": "2026-09-04T04:33:11.255Z",
+    "model": "anthropic/claude-opus-5",
+    "sources": [
+      "MRA-2027-0641-Halloran-operational-quotation.pdf",
+      "Supplier-email-Camissa-2027-rates.txt",
+      "Supplier-Rate-Pack-SA-2027-v3.pdf"
+    ]
+  },
+  "lines": [
+    {
+      "category": "assistance",
+      "dates": {
+        "end": null,
+        "start": "2027-07-05"
+      },
+      "id": "s01",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "One Way Assistance (Meet & Greet)                    45.00          per person per movement Arrival or departure. Charged each way.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / One Way Assistance (Meet & Greet)"
+        },
+        "value": 225
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person per movement)",
+        "unit": "per person per movement",
+        "value": 5
+      },
+      "service": "Meet & Greet:\nOne Way Assistance\nPer Arrival or Departure",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "One Way Assistance (Meet & Greet)                    45.00          per person per movement Arrival or departure. Charged each way.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / One Way Assistance (Meet & Greet)"
+        },
+        "value": 45
+      }
+    },
+    {
+      "category": "transfer",
+      "dates": {
+        "end": null,
+        "start": "2027-07-05"
+      },
+      "id": "s02",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00               per vehicle one way           Zone 1 covers City Bowl, Atlantic Seaboard, V&A.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Transfer CIA to Zone 1, 06H00–21H00, with guide"
+        },
+        "value": 210
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "1 (per vehicle one way)",
+        "unit": "per vehicle one way",
+        "value": 1
+      },
+      "service": "Transfer:\nTransfer CIA to Zone 1 (06H00-21H00) - with Guide\nPer Vehicle One Way",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00               per vehicle one way           Zone 1 covers City Bowl, Atlantic Seaboard, V&A.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Transfer CIA to Zone 1, 06H00–21H00, with guide"
+        },
+        "value": 210
+      }
+    },
+    {
+      "category": "supplement",
+      "dates": {
+        "end": null,
+        "start": "2027-07-05"
+      },
+      "id": "s02.x1",
+      "lineTotal": {
+        "assumptions": [
+          "The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer. Advise at time of booking.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / note 2a"
+        },
+        "value": 65
+      },
+      "needsReview": [
+        "r01"
+      ],
+      "nights": null,
+      "parentId": "s02",
+      "quantity": {
+        "derivation": "1 (per group, charged per transfer)",
+        "unit": "per group, charged per transfer",
+        "value": 1
+      },
+      "service": "Trailer 6+ Pax per group",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [
+          "The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer. Advise at time of booking.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / note 2a"
+        },
+        "value": 65
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-09",
+        "start": "2027-07-05"
+      },
+      "id": "s03",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [],
+      "nights": 4,
+      "parentId": null,
+      "quantity": {
+        "derivation": "stay — see room lines",
+        "unit": "night(s)",
+        "value": 4
+      },
+      "service": "Accommodation: The Camissa Boutique Hotel\n1 x Family Suite on a Bed and Breakfast basis\n1 x Classic Room on a Bed and Breakfast basis",
+      "supplier": "The Camissa Boutique Hotel",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-09",
+        "start": "2027-07-05"
+      },
+      "id": "s03.r1",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "excerpt": "Family Suite (B&B)        USD 375.00 per room per night",
+          "location": "Email body, revised 2027 rate list - Family Suite (B&B) row"
+        },
+        "value": 1500
+      },
+      "needsReview": [
+        "r02"
+      ],
+      "nights": 4,
+      "parentId": "s03",
+      "quantity": {
+        "derivation": "1 × 4 night(s) (per room per night)",
+        "unit": "per room per night",
+        "value": 4
+      },
+      "service": "1 x Family Suite on a Bed and Breakfast basis",
+      "supplier": "The Camissa Boutique Hotel",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "excerpt": "Family Suite (B&B)        USD 375.00 per room per night",
+          "location": "Email body, revised 2027 rate list - Family Suite (B&B) row"
+        },
+        "value": 375
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-09",
+        "start": "2027-07-05"
+      },
+      "id": "s03.r2",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "excerpt": "Classic Room (B&B)        USD 230.00 per room per night",
+          "location": "Email body, revised 2027 rate list - Classic Room (B&B) row"
+        },
+        "value": 920
+      },
+      "needsReview": [
+        "r03"
+      ],
+      "nights": 4,
+      "parentId": "s03",
+      "quantity": {
+        "derivation": "1 × 4 night(s) (per room per night)",
+        "unit": "per room per night",
+        "value": 4
+      },
+      "service": "1 x Classic Room on a Bed and Breakfast basis",
+      "supplier": "The Camissa Boutique Hotel",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-email-Camissa-2027-rates.txt",
+          "excerpt": "Classic Room (B&B)        USD 230.00 per room per night",
+          "location": "Email body, revised 2027 rate list - Classic Room (B&B) row"
+        },
+        "value": 230
+      }
+    },
+    {
+      "category": "activity",
+      "dates": {
+        "end": null,
+        "start": "2027-07-06"
+      },
+      "id": "s04",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "SLOW Walks & Hikes — Rise & Climb, Table Mountain\n                                           95.00                    per person                    Half day. Minimum 2 pax.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / SLOW Walks & Hikes — Rise & Climb, Table Mountain"
+        },
+        "value": 475
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person)",
+        "unit": "per person",
+        "value": 5
+      },
+      "service": "Activity:SLOW Walks & Hikes\nHalf Day Rise & Climb - Table Mountain Hike\nHalf Day (per person)",
+      "supplier": "SLOW Walks & Hikes",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "SLOW Walks & Hikes — Rise & Climb, Table Mountain\n                                           95.00                    per person                    Half day. Minimum 2 pax.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / SLOW Walks & Hikes — Rise & Climb, Table Mountain"
+        },
+        "value": 95
+      }
+    },
+    {
+      "category": "activity",
+      "dates": {
+        "end": null,
+        "start": "2027-07-07"
+      },
+      "id": "s05",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Full Day Peninsula Scenic Tour, private              480.00         per vehicle                   Max 7 pax per vehicle. Entrances included.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Full Day Peninsula Scenic Tour, private"
+        },
+        "value": 480
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "1 (per vehicle)",
+        "unit": "per vehicle",
+        "value": 1
+      },
+      "service": "Full Day Peninsula Scenic Tour\nPrivate Tour",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Full Day Peninsula Scenic Tour, private              480.00         per vehicle                   Max 7 pax per vehicle. Entrances included.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Full Day Peninsula Scenic Tour, private"
+        },
+        "value": 480
+      }
+    },
+    {
+      "category": "activity",
+      "dates": {
+        "end": null,
+        "start": "2027-07-08"
+      },
+      "id": "s06",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Custom Private Tour, full day                        145.00         per person                    Guide and vehicle included. See note 2b.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Custom Private Tour, full day"
+        },
+        "value": 725
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person)",
+        "unit": "per person",
+        "value": 5
+      },
+      "service": "Day Tour:\nCustom Private Tour\nPer Person",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Custom Private Tour, full day                        145.00         per person                    Guide and vehicle included. See note 2b.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Custom Private Tour, full day"
+        },
+        "value": 145
+      }
+    },
+    {
+      "category": "supplement",
+      "dates": {
+        "end": null,
+        "start": "2027-07-08"
+      },
+      "id": "s06.x1",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "2b. Custom Private Tour is subject to a Per Group Extra of 140.00 per group covering permits, parking and driver-guide overtime allowance.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / note 2b"
+        },
+        "value": 140
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": "s06",
+      "quantity": {
+        "derivation": "1 (per group)",
+        "unit": "per group",
+        "value": 1
+      },
+      "service": "Per Group Extra per group",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "2b. Custom Private Tour is subject to a Per Group Extra of 140.00 per group covering permits, parking and driver-guide overtime allowance.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / note 2b"
+        },
+        "value": 140
+      }
+    },
+    {
+      "category": "transfer",
+      "dates": {
+        "end": null,
+        "start": "2027-07-09"
+      },
+      "id": "s07",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00               per vehicle one way           Zone 1 covers City Bowl, Atlantic Seaboard, V&A.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Transfer CIA to Zone 1, 06H00–21H00, with guide"
+        },
+        "value": 210
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "1 (per vehicle one way)",
+        "unit": "per vehicle one way",
+        "value": 1
+      },
+      "service": "Transfer:\nTransfer CIA to Zone 1 (06H00-21H00) - with Guide\nPer Vehicle One Way",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Transfer CIA to Zone 1, 06H00–21H00, with guide210.00               per vehicle one way           Zone 1 covers City Bowl, Atlantic Seaboard, V&A.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / Transfer CIA to Zone 1, 06H00–21H00, with guide"
+        },
+        "value": 210
+      }
+    },
+    {
+      "category": "supplement",
+      "dates": {
+        "end": null,
+        "start": "2027-07-09"
+      },
+      "id": "s07.x1",
+      "lineTotal": {
+        "assumptions": [
+          "The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer. Advise at time of booking.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / note 2a"
+        },
+        "value": 65
+      },
+      "needsReview": [
+        "r04"
+      ],
+      "nights": null,
+      "parentId": "s07",
+      "quantity": {
+        "derivation": "1 (per group, charged per transfer)",
+        "unit": "per group, charged per transfer",
+        "value": 1
+      },
+      "service": "Trailer 6+ Pax per group",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [
+          "The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "2a. Trailer supplement, required for groups of 6 pax and above or where luggage exceeds vehicle capacity: 65.00 per group, charged per transfer. Advise at time of booking.",
+          "location": "2. CAPE TOWN — TOURING & TRANSFERS / note 2a"
+        },
+        "value": 65
+      }
+    },
+    {
+      "category": "flight",
+      "dates": {
+        "end": null,
+        "start": "2027-07-09"
+      },
+      "id": "s08",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [
+        "r05"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "no rate",
+        "unit": "unknown",
+        "value": 1
+      },
+      "service": "Flight: Zambezi Air\nPer person\nDeparture: 4Z, Cape Town\nArrival: 4Z, Hoedspruit",
+      "supplier": "Zambezi Air",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "transfer",
+      "dates": {
+        "end": null,
+        "start": "2027-07-09"
+      },
+      "id": "s09",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Complimentary scheduled road transfer from Hoedspruit Airport (HDS) is included for guests staying two nights or more. No charge.",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / complimentary transfer note"
+        },
+        "value": 0
+      },
+      "needsReview": [],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person (included, no charge))",
+        "unit": "per person (included, no charge)",
+        "value": 5
+      },
+      "service": "Transfer:\nComplimentary scheduled transfer",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Complimentary scheduled road transfer from Hoedspruit Airport (HDS) is included for guests staying two nights or more. No charge.",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / complimentary transfer note"
+        },
+        "value": 0
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-11",
+        "start": "2027-07-09"
+      },
+      "id": "s10",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [],
+      "nights": 2,
+      "parentId": null,
+      "quantity": {
+        "derivation": "stay — see room lines",
+        "unit": "night(s)",
+        "value": 2
+      },
+      "service": "Accommodation: Marula River Lodge\nFamily Chalet on a Fully Inclusive (Selected beverages) basis\nTented Pool Suite on a Fully Inclusive (Selected beverages) basis",
+      "supplier": "Marula River Lodge",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-11",
+        "start": "2027-07-09"
+      },
+      "id": "s10.r1",
+      "lineTotal": {
+        "assumptions": [
+          "Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed.",
+          "A night falls on a date two season bands both claim; costed at the higher band (1780); the lower reading would be 1510."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Family Chalet                           620.00                            890.00                              per chalet per night",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / Family Chalet"
+        },
+        "value": 1780
+      },
+      "needsReview": [
+        "r06"
+      ],
+      "nights": 2,
+      "parentId": "s10",
+      "quantity": {
+        "derivation": "1 × [2027-07-09 Peak Season 890 (also Green Season 620); 2027-07-10 Peak Season 890]",
+        "unit": "per chalet per night",
+        "value": 2
+      },
+      "service": "1 x Family Chalet on a Fully Inclusive (Selected beverages) basis",
+      "supplier": "Marula River Lodge",
+      "unitRate": {
+        "assumptions": [
+          "Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed.",
+          "A night falls on a date two season bands both claim; costed at the higher band (1780); the lower reading would be 1510."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Family Chalet                           620.00                            890.00                              per chalet per night",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / Family Chalet"
+        },
+        "value": 890
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-11",
+        "start": "2027-07-09"
+      },
+      "id": "s10.r2",
+      "lineTotal": {
+        "assumptions": [
+          "Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed.",
+          "A night falls on a date two season bands both claim; costed at the higher band (1520); the lower reading would be 1300."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Tented Pool Suite                       540.00                            760.00                              per suite per night",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / Tented Pool Suite"
+        },
+        "value": 1520
+      },
+      "needsReview": [
+        "r07"
+      ],
+      "nights": 2,
+      "parentId": "s10",
+      "quantity": {
+        "derivation": "1 × [2027-07-09 Peak Season 760 (also Green Season 540); 2027-07-10 Peak Season 760]",
+        "unit": "per suite per night",
+        "value": 2
+      },
+      "service": "1 x Tented Pool Suite on a Fully Inclusive (Selected beverages) basis",
+      "supplier": "Marula River Lodge",
+      "unitRate": {
+        "assumptions": [
+          "Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed.",
+          "A night falls on a date two season bands both claim; costed at the higher band (1520); the lower reading would be 1300."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Tented Pool Suite                       540.00                            760.00                              per suite per night",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / Tented Pool Suite"
+        },
+        "value": 760
+      }
+    },
+    {
+      "category": "levy",
+      "dates": {
+        "end": "2027-07-11",
+        "start": "2027-07-09"
+      },
+      "id": "s10.x1",
+      "lineTotal": {
+        "assumptions": [
+          "Quotation prints \"2 x\" but the rate is per person per night; costed as 5 pax × 2 night(s) (per person per night)."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Marula Reserve Conservation Levy: 28.00 per person per night, compulsory, payable on all stays. Levy is not commissionable and is not included in the rates above.",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / Conservation Levy note"
+        },
+        "value": 280
+      },
+      "needsReview": [
+        "r08"
+      ],
+      "nights": 2,
+      "parentId": "s10",
+      "quantity": {
+        "derivation": "5 pax × 2 night(s) (per person per night)",
+        "unit": "per person per night",
+        "value": 10
+      },
+      "service": "Consv Levy compulsory pax",
+      "supplier": "Marula River Lodge",
+      "unitRate": {
+        "assumptions": [
+          "Quotation prints \"2 x\" but the rate is per person per night; costed as 5 pax × 2 night(s) (per person per night)."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Marula Reserve Conservation Levy: 28.00 per person per night, compulsory, payable on all stays. Levy is not commissionable and is not included in the rates above.",
+          "location": "3. MARULA RESERVE — MARULA RIVER LODGE / Conservation Levy note"
+        },
+        "value": 28
+      }
+    },
+    {
+      "category": "transfer",
+      "dates": {
+        "end": null,
+        "start": "2027-07-11"
+      },
+      "id": "s11",
+      "lineTotal": {
+        "assumptions": [
+          "The transfer starts at Marula River Lodge rather than at HDS as in the rate's routing, so the HDS to Kudu Sands rate is applied to this lodge-to-lodge leg.",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "HDS to Kudu Sands lodges                                 165.00      per person one way                01 Jan 27 – 31 Dec 27",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / HDS to Kudu Sands lodges"
+        },
+        "value": 825
+      },
+      "needsReview": [
+        "r09"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person one way)",
+        "unit": "per person one way",
+        "value": 5
+      },
+      "service": "Transfer:Transfers & Tours\nHDS to Kudu Sands Lodges\nPer Person One Way",
+      "supplier": "Transfers & Tours",
+      "unitRate": {
+        "assumptions": [
+          "The transfer starts at Marula River Lodge rather than at HDS as in the rate's routing, so the HDS to Kudu Sands rate is applied to this lodge-to-lodge leg.",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "HDS to Kudu Sands lodges                                 165.00      per person one way                01 Jan 27 – 31 Dec 27",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / HDS to Kudu Sands lodges"
+        },
+        "value": 165
+      }
+    },
+    {
+      "category": "levy",
+      "dates": {
+        "end": null,
+        "start": "2027-07-11"
+      },
+      "id": "s11.x1",
+      "lineTotal": {
+        "assumptions": [
+          "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / gate charges note"
+        },
+        "value": 40
+      },
+      "needsReview": [
+        "r10"
+      ],
+      "nights": null,
+      "parentId": "s11",
+      "quantity": {
+        "derivation": "1 (per group per entry)",
+        "unit": "per group per entry",
+        "value": 1
+      },
+      "service": "Vehicle Entrance Fee per group",
+      "supplier": "Transfers & Tours",
+      "unitRate": {
+        "assumptions": [
+          "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / gate charges note"
+        },
+        "value": 40
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-14",
+        "start": "2027-07-11"
+      },
+      "id": "s12",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [],
+      "nights": 3,
+      "parentId": null,
+      "quantity": {
+        "derivation": "stay — see room lines",
+        "unit": "night(s)",
+        "value": 3
+      },
+      "service": "Accommodation: Kudu Ridge Private Game Reserve\n2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis",
+      "supplier": "Kudu Ridge Private Game Reserve",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-14",
+        "start": "2027-07-11"
+      },
+      "id": "s12.r1",
+      "lineTotal": {
+        "assumptions": [
+          "Rate condition to be settled later: \"4a. Triple occupancy is available in Luxury Suites on request. No supplement and no reduction applies — the third guest is charged at the standard per person sharing rate.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Luxury Suite                        890.00        per person sharing per night                Max 2 adults. See note 4a for triple.",
+          "location": "4. KUDU SANDS — KUDU RIDGE PRIVATE GAME RESERVE / Luxury Suite"
+        },
+        "value": 13350
+      },
+      "needsReview": [
+        "r11"
+      ],
+      "nights": 3,
+      "parentId": "s12",
+      "quantity": {
+        "derivation": "5 pax × 3 night(s) (per person sharing per night)",
+        "unit": "per person sharing per night",
+        "value": 15
+      },
+      "service": "2 x Luxury Suite on a Fully Inclusive (Selected Beverages) basis",
+      "supplier": "Kudu Ridge Private Game Reserve",
+      "unitRate": {
+        "assumptions": [
+          "Rate condition to be settled later: \"4a. Triple occupancy is available in Luxury Suites on request. No supplement and no reduction applies — the third guest is charged at the standard per person sharing rate.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Luxury Suite                        890.00        per person sharing per night                Max 2 adults. See note 4a for triple.",
+          "location": "4. KUDU SANDS — KUDU RIDGE PRIVATE GAME RESERVE / Luxury Suite"
+        },
+        "value": 890
+      }
+    },
+    {
+      "category": "levy",
+      "dates": {
+        "end": "2027-07-14",
+        "start": "2027-07-11"
+      },
+      "id": "s12.x1",
+      "lineTotal": {
+        "assumptions": [
+          "Quotation prints \"3 x\" but the rate is per person per night; costed as 5 pax × 3 night(s) (per person per night)."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Kudu Sands Conservation Levy: 35.00 per person per night, compulsory. Not commissionable.",
+          "location": "4. KUDU SANDS — KUDU RIDGE PRIVATE GAME RESERVE / Conservation Levy note"
+        },
+        "value": 525
+      },
+      "needsReview": [
+        "r12"
+      ],
+      "nights": 3,
+      "parentId": "s12",
+      "quantity": {
+        "derivation": "5 pax × 3 night(s) (per person per night)",
+        "unit": "per person per night",
+        "value": 15
+      },
+      "service": "Conservation Levy compulsory pax",
+      "supplier": "Kudu Ridge Private Game Reserve",
+      "unitRate": {
+        "assumptions": [
+          "Quotation prints \"3 x\" but the rate is per person per night; costed as 5 pax × 3 night(s) (per person per night)."
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Kudu Sands Conservation Levy: 35.00 per person per night, compulsory. Not commissionable.",
+          "location": "4. KUDU SANDS — KUDU RIDGE PRIVATE GAME RESERVE / Conservation Levy note"
+        },
+        "value": 35
+      }
+    },
+    {
+      "id": "s12.x2",
+      "parentId": "s12",
+      "category": "supplement",
+      "service": "Triple per group",
+      "supplier": "Kudu Ridge Private Game Reserve",
+      "dates": {
+        "end": "2027-07-14",
+        "start": "2027-07-11"
+      },
+      "nights": 3,
+      "quantity": {
+        "value": 1,
+        "unit": "included",
+        "derivation": "covered by the parent line's rate (supplier-rate-pack-sa-2027-v3/kudu-ridge-luxury-suite); no separate charge"
+      },
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Luxury Suite                        890.00        per person sharing per night                Max 2 adults. See note 4a for triple.",
+          "location": "4. KUDU SANDS — KUDU RIDGE PRIVATE GAME RESERVE / Luxury Suite"
+        },
+        "value": 0
+      },
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Luxury Suite                        890.00        per person sharing per night                Max 2 adults. See note 4a for triple.",
+          "location": "4. KUDU SANDS — KUDU RIDGE PRIVATE GAME RESERVE / Luxury Suite"
+        },
+        "value": 0
+      },
+      "needsReview": []
+    },
+    {
+      "category": "transfer",
+      "dates": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "id": "s13",
+      "lineTotal": {
+        "assumptions": [
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Kudu Sands lodges to MQP (Kruger Mpumalanga)             190.00      per person one way                01 Jan 27 – 31 Dec 27",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / Kudu Sands lodges to MQP (Kruger Mpumalanga)"
+        },
+        "value": 950
+      },
+      "needsReview": [
+        "r13"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person one way)",
+        "unit": "per person one way",
+        "value": 5
+      },
+      "service": "Transfer:Transfers & Tours\nKMIA to Kudu Sands Lodges\nPer Person One Way",
+      "supplier": "Transfers & Tours",
+      "unitRate": {
+        "assumptions": [
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Kudu Sands lodges to MQP (Kruger Mpumalanga)             190.00      per person one way                01 Jan 27 – 31 Dec 27",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / Kudu Sands lodges to MQP (Kruger Mpumalanga)"
+        },
+        "value": 190
+      }
+    },
+    {
+      "category": "levy",
+      "dates": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "id": "s13.x1",
+      "lineTotal": {
+        "assumptions": [
+          "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "Quotation prints \"1 x\" but the rate is per pax per entry; costed as 5 pax (per pax per entry).",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / gate charges note"
+        },
+        "value": 125
+      },
+      "needsReview": [
+        "r14"
+      ],
+      "nights": null,
+      "parentId": "s13",
+      "quantity": {
+        "derivation": "5 pax (per pax per entry)",
+        "unit": "per pax per entry",
+        "value": 5
+      },
+      "service": "Entrance Fee per pax",
+      "supplier": "Transfers & Tours",
+      "unitRate": {
+        "assumptions": [
+          "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "Quotation prints \"1 x\" but the rate is per pax per entry; costed as 5 pax (per pax per entry).",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / gate charges note"
+        },
+        "value": 25
+      }
+    },
+    {
+      "category": "levy",
+      "dates": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "id": "s13.x2",
+      "lineTotal": {
+        "assumptions": [
+          "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / gate charges note"
+        },
+        "value": 40
+      },
+      "needsReview": [
+        "r15"
+      ],
+      "nights": null,
+      "parentId": "s13",
+      "quantity": {
+        "derivation": "1 (per group per entry)",
+        "unit": "per group per entry",
+        "value": 1
+      },
+      "service": "Vehicle Entrance Fee per group",
+      "supplier": "Transfers & Tours",
+      "unitRate": {
+        "assumptions": [
+          "The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\""
+        ],
+        "confidence": "assumed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.",
+          "location": "5. LOWVELD — ROAD TRANSFERS (TRANSFERS & TOURS) / gate charges note"
+        },
+        "value": 40
+      }
+    },
+    {
+      "category": "flight",
+      "dates": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "id": "s14",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [
+        "r16"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "no rate",
+        "unit": "unknown",
+        "value": 1
+      },
+      "service": "Flight: Zambezi Air\nFlights\nPer person\nDeparture: 4Z, Nelspruit\nArrival: 4Z, Vilancoulos",
+      "supplier": "Zambezi Air",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "transfer",
+      "dates": {
+        "end": null,
+        "start": "2027-07-14"
+      },
+      "id": "s15",
+      "lineTotal": {
+        "assumptions": [
+          "The only helicopter rate is a 2025 tariff carried forward and described as indicative pending unreleased 2027 tariffs, so it must be reconfirmed.",
+          "Rate condition to be settled later: \"2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. Operator has indicated a likely increase but has not confirmed. Reconfirm before quoting.\"",
+          "Rate validity 2025-01-01 → 2026-12-31 does not cover 2027-07-14.",
+          "Rate is carried forward / not yet confirmed for these dates."
+        ],
+        "confidence": "indicative",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodges\n                                                                     395.00                 per person per way            01 Jan 25 – 31 Dec 26\n                                                                                                                          (2025 tariff, carried forward)",
+          "location": "7. MOZAMBIQUE — AIR & SEA TRANSFERS / Helicopter transfer VNX (Vilanculos) – Benguerra island lodges"
+        },
+        "value": 1975
+      },
+      "needsReview": [
+        "r17"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person per way)",
+        "unit": "per person per way",
+        "value": 5
+      },
+      "service": "Transfer:\nHelicopter Transfer\nPer Person Per Way",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [
+          "The only helicopter rate is a 2025 tariff carried forward and described as indicative pending unreleased 2027 tariffs, so it must be reconfirmed.",
+          "Rate condition to be settled later: \"2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. Operator has indicated a likely increase but has not confirmed. Reconfirm before quoting.\"",
+          "Rate validity 2025-01-01 → 2026-12-31 does not cover 2027-07-14.",
+          "Rate is carried forward / not yet confirmed for these dates."
+        ],
+        "confidence": "indicative",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodges\n                                                                     395.00                 per person per way            01 Jan 25 – 31 Dec 26\n                                                                                                                          (2025 tariff, carried forward)",
+          "location": "7. MOZAMBIQUE — AIR & SEA TRANSFERS / Helicopter transfer VNX (Vilanculos) – Benguerra island lodges"
+        },
+        "value": 395
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-17",
+        "start": "2027-07-14"
+      },
+      "id": "s16",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [],
+      "nights": 3,
+      "parentId": null,
+      "quantity": {
+        "derivation": "stay — see room lines",
+        "unit": "night(s)",
+        "value": 3
+      },
+      "service": "Accommodation: Ilha Azul Beach Lodge\n1 x Beach Villa & 1 x Beach Villa Grande on a Fully Inclusive basis",
+      "supplier": "Ilha Azul Beach Lodge",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-17",
+        "start": "2027-07-14"
+      },
+      "id": "s16.r1",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Beach Villa                                    780.00         per villa per night                      01 Jan 27 – 31 Dec 27",
+          "location": "6. MOZAMBIQUE — BENGUERRA / BAZARUTO ARCHIPELAGO / Beach Villa"
+        },
+        "value": 2340
+      },
+      "needsReview": [],
+      "nights": 3,
+      "parentId": "s16",
+      "quantity": {
+        "derivation": "1 × 3 night(s) (per villa per night)",
+        "unit": "per villa per night",
+        "value": 3
+      },
+      "service": "1 x Beach Villa on a Fully Inclusive basis",
+      "supplier": "Ilha Azul Beach Lodge",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "confirmed",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Beach Villa                                    780.00         per villa per night                      01 Jan 27 – 31 Dec 27",
+          "location": "6. MOZAMBIQUE — BENGUERRA / BAZARUTO ARCHIPELAGO / Beach Villa"
+        },
+        "value": 780
+      }
+    },
+    {
+      "category": "accommodation",
+      "dates": {
+        "end": "2027-07-17",
+        "start": "2027-07-14"
+      },
+      "id": "s16.r2",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [
+        "r18"
+      ],
+      "nights": 3,
+      "parentId": "s16",
+      "quantity": {
+        "derivation": "no rate",
+        "unit": "unknown",
+        "value": 1
+      },
+      "service": "1 x Beach Villa Grande on a Fully Inclusive basis",
+      "supplier": "Ilha Azul Beach Lodge",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "transfer",
+      "dates": {
+        "end": null,
+        "start": "2027-07-17"
+      },
+      "id": "s17",
+      "lineTotal": {
+        "assumptions": [
+          "The only helicopter rate is a 2025 tariff carried forward and described as indicative pending unreleased 2027 tariffs, so it must be reconfirmed.",
+          "Rate condition to be settled later: \"2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. Operator has indicated a likely increase but has not confirmed. Reconfirm before quoting.\"",
+          "Rate validity 2025-01-01 → 2026-12-31 does not cover 2027-07-17.",
+          "Rate is carried forward / not yet confirmed for these dates."
+        ],
+        "confidence": "indicative",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodges\n                                                                     395.00                 per person per way            01 Jan 25 – 31 Dec 26\n                                                                                                                          (2025 tariff, carried forward)",
+          "location": "7. MOZAMBIQUE — AIR & SEA TRANSFERS / Helicopter transfer VNX (Vilanculos) – Benguerra island lodges"
+        },
+        "value": 1975
+      },
+      "needsReview": [
+        "r19"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "5 pax (per person per way)",
+        "unit": "per person per way",
+        "value": 5
+      },
+      "service": "Transfer:\nHelicopter Transfer\nPer Person Per Way",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [
+          "The only helicopter rate is a 2025 tariff carried forward and described as indicative pending unreleased 2027 tariffs, so it must be reconfirmed.",
+          "Rate condition to be settled later: \"2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. Operator has indicated a likely increase but has not confirmed. Reconfirm before quoting.\"",
+          "Rate validity 2025-01-01 → 2026-12-31 does not cover 2027-07-17.",
+          "Rate is carried forward / not yet confirmed for these dates."
+        ],
+        "confidence": "indicative",
+        "currency": "USD",
+        "provenance": {
+          "document": "Supplier-Rate-Pack-SA-2027-v3.pdf",
+          "excerpt": "Helicopter transfer VNX (Vilanculos) – Benguerra island lodges\n                                                                     395.00                 per person per way            01 Jan 25 – 31 Dec 26\n                                                                                                                          (2025 tariff, carried forward)",
+          "location": "7. MOZAMBIQUE — AIR & SEA TRANSFERS / Helicopter transfer VNX (Vilanculos) – Benguerra island lodges"
+        },
+        "value": 395
+      }
+    },
+    {
+      "category": "flight",
+      "dates": {
+        "end": null,
+        "start": "2027-07-17"
+      },
+      "id": "s18",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [
+        "r20"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "no rate",
+        "unit": "unknown",
+        "value": 1
+      },
+      "service": "Flight: Zambezi Air\nDeparture: 4Z, Vilancoulos\nArrival: 4Z, Johannesburg",
+      "supplier": "Zambezi Air",
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    },
+    {
+      "category": "assistance",
+      "dates": {
+        "end": null,
+        "start": "2027-07-17"
+      },
+      "id": "s19",
+      "lineTotal": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      },
+      "needsReview": [
+        "r21"
+      ],
+      "nights": null,
+      "parentId": null,
+      "quantity": {
+        "derivation": "no rate",
+        "unit": "unknown",
+        "value": 1
+      },
+      "service": "Meet & Greet:\nOne Way Assistance\nPer Arrival or Departure",
+      "supplier": null,
+      "unitRate": {
+        "assumptions": [],
+        "confidence": "unresolved",
+        "currency": "USD",
+        "provenance": null,
+        "value": null
+      }
+    }
+  ],
+  "needs_review": [
+    {
+      "field": "lineTotal",
+      "id": "r01",
+      "lineIds": [
+        "s02.x1"
+      ],
+      "reason": "\"Trailer 6+ Pax per group\" costed on an assumption: The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity.",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "unitRate",
+      "id": "r02",
+      "lineIds": [
+        "s03.r1"
+      ],
+      "reason": "Supplier-email-Camissa-2027-rates.txt (2026-08-12) supersedes Supplier-Rate-Pack-SA-2027-v3.pdf (2026-08-14) for The Camissa Boutique Hotel Family Suite: 375 replaces 340. Note: the superseded document was compiled later (2026-08-14) and still carries the old figure.",
+      "severity": "confirm",
+      "suggestedAction": "Confirm the later document is the signed, current one and the earlier rate is withdrawn."
+    },
+    {
+      "field": "unitRate",
+      "id": "r03",
+      "lineIds": [
+        "s03.r2"
+      ],
+      "reason": "Supplier-email-Camissa-2027-rates.txt (2026-08-12) supersedes Supplier-Rate-Pack-SA-2027-v3.pdf (2026-08-14) for The Camissa Boutique Hotel Classic Room: 230 replaces 210. Note: the superseded document was compiled later (2026-08-14) and still carries the old figure.",
+      "severity": "confirm",
+      "suggestedAction": "Confirm the later document is the signed, current one and the earlier rate is withdrawn."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r04",
+      "lineIds": [
+        "s07.x1"
+      ],
+      "reason": "\"Trailer 6+ Pax per group\" costed on an assumption: The party is 5 pax, short of the 6-pax threshold, so the trailer is taken as required because luggage exceeds vehicle capacity.",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "unitRate",
+      "id": "r05",
+      "lineIds": [
+        "s08"
+      ],
+      "reason": "No rate found for \"Flight: Zambezi Air\nPer person\nDeparture: 4Z, Cape Town\nArrival: 4Z, Hoedspruit\": The rate book contains no Zambezi Air (or any air ticket) rates for Cape Town to Hoedspruit.",
+      "severity": "blocking",
+      "suggestedAction": "Re-quote with the supplier before issuing; do not estimate."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r06",
+      "lineIds": [
+        "s10.r1"
+      ],
+      "reason": "\"Family Chalet (Fully Inclusive (Selected beverages))\" costed on an assumption: Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed. A night falls on a date two season bands both claim; costed at the higher band (1780); the lower reading would be 1510.",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r07",
+      "lineIds": [
+        "s10.r2"
+      ],
+      "reason": "\"Tented Pool Suite (Fully Inclusive (Selected beverages))\" costed on an assumption: Check-in falls on 09 July 2027, the exact boundary between the Green Season band ending 09 July and the Peak Season band starting 09 July, so the applicable band is assumed. A night falls on a date two season bands both claim; costed at the higher band (1520); the lower reading would be 1300.",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r08",
+      "lineIds": [
+        "s10.x1"
+      ],
+      "reason": "\"Consv Levy compulsory pax\" costed on an assumption: Quotation prints \"2 x\" but the rate is per person per night; costed as 5 pax × 2 night(s) (per person per night).",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r09",
+      "lineIds": [
+        "s11"
+      ],
+      "reason": "\"Transfer:Transfers & Tours\nHDS to Kudu Sands Lodges\nPer Person One Way\" costed on an assumption: The transfer starts at Marula River Lodge rather than at HDS as in the rate's routing, so the HDS to Kudu Sands rate is applied to this lodge-to-lodge leg. Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\"",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r10",
+      "lineIds": [
+        "s11.x1"
+      ],
+      "reason": "\"Vehicle Entrance Fee per group\" costed on an assumption: The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator. Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\"",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r11",
+      "lineIds": [
+        "s12.r1"
+      ],
+      "reason": "\"Luxury Suite (Fully Inclusive (Selected Beverages))\" costed on an assumption: Rate condition to be settled later: \"4a. Triple occupancy is available in Luxury Suites on request. No supplement and no reduction applies — the third guest is charged at the standard per person sharing rate.\"",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r12",
+      "lineIds": [
+        "s12.x1"
+      ],
+      "reason": "\"Conservation Levy compulsory pax\" costed on an assumption: Quotation prints \"3 x\" but the rate is per person per night; costed as 5 pax × 3 night(s) (per person per night).",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r13",
+      "lineIds": [
+        "s13"
+      ],
+      "reason": "\"Transfer:Transfers & Tours\nKMIA to Kudu Sands Lodges\nPer Person One Way\" costed on an assumption: Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\"",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r14",
+      "lineIds": [
+        "s13.x1"
+      ],
+      "reason": "\"Entrance Fee per pax\" costed on an assumption: The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator. Quotation prints \"1 x\" but the rate is per pax per entry; costed as 5 pax (per pax per entry). Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\"",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "lineTotal",
+      "id": "r15",
+      "lineIds": [
+        "s13.x2"
+      ],
+      "reason": "\"Vehicle Entrance Fee per group\" costed on an assumption: The rate document says gate charge applicability depends on the gate used on the day and is confirmed by the transfer operator. Rate condition to be settled later: \"Reserve gate charges, where levied, are additional: Vehicle Entrance Fee 40.00 per group per entry; Entrance Fee 25.00 per pax per entry. Applicability depends on the gate used on the day and is confirmed by the transfer operator.\"",
+      "severity": "confirm",
+      "suggestedAction": "Confirm with the supplier or the consultant; adjust the line if the assumption is wrong."
+    },
+    {
+      "field": "unitRate",
+      "id": "r16",
+      "lineIds": [
+        "s14"
+      ],
+      "reason": "No rate found for \"Flight: Zambezi Air\nFlights\nPer person\nDeparture: 4Z, Nelspruit\nArrival: 4Z, Vilancoulos\": The rate book holds no Zambezi Air or other air ticket rate for Nelspruit to Vilanculos.",
+      "severity": "blocking",
+      "suggestedAction": "Re-quote with the supplier before issuing; do not estimate."
+    },
+    {
+      "field": "unitRate",
+      "id": "r17",
+      "lineIds": [
+        "s15"
+      ],
+      "reason": "Rate for \"Transfer:\nHelicopter Transfer\nPer Person Per Way\" is not confirmed for the travel dates: Rate condition to be settled later: \"2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. Operator has indicated a likely increase but has not confirmed. Reconfirm before quoting.\" Rate validity 2025-01-01 → 2026-12-31 does not cover 2027-07-14. Rate is carried forward / not yet confirmed for these dates.",
+      "severity": "blocking",
+      "suggestedAction": "Reconfirm the tariff with the supplier before quoting."
+    },
+    {
+      "field": "unitRate",
+      "id": "r18",
+      "lineIds": [
+        "s16.r2"
+      ],
+      "reason": "No rate found for \"Beach Villa Grande (Fully Inclusive)\": The rate book lists only Beach Villa, Infinity Beach Villa and Presidential Villa for Ilha Azul; there is no 'Beach Villa Grande' rate to price this line.",
+      "severity": "blocking",
+      "suggestedAction": "Re-quote with the supplier before issuing; do not estimate."
+    },
+    {
+      "field": "unitRate",
+      "id": "r19",
+      "lineIds": [
+        "s17"
+      ],
+      "reason": "Rate for \"Transfer:\nHelicopter Transfer\nPer Person Per Way\" is not confirmed for the travel dates: Rate condition to be settled later: \"2027 tariffs for Mozambique air transfers had not been released at the date this pack was compiled. Operator has indicated a likely increase but has not confirmed. Reconfirm before quoting.\" Rate validity 2025-01-01 → 2026-12-31 does not cover 2027-07-17. Rate is carried forward / not yet confirmed for these dates.",
+      "severity": "blocking",
+      "suggestedAction": "Reconfirm the tariff with the supplier before quoting."
+    },
+    {
+      "field": "unitRate",
+      "id": "r20",
+      "lineIds": [
+        "s18"
+      ],
+      "reason": "No rate found for \"Flight: Zambezi Air\nDeparture: 4Z, Vilancoulos\nArrival: 4Z, Johannesburg\": No air ticket rates for Zambezi Air Vilanculos to Johannesburg exist in the rate book.",
+      "severity": "blocking",
+      "suggestedAction": "Re-quote with the supplier before issuing; do not estimate."
+    },
+    {
+      "field": "unitRate",
+      "id": "r21",
+      "lineIds": [
+        "s19"
+      ],
+      "reason": "No rate found for \"Meet & Greet:\nOne Way Assistance\nPer Arrival or Departure\": The only meet & greet assistance rate is listed under Cape Town — Touring & Transfers and does not price a Johannesburg movement; no Johannesburg assistance rate exists.",
+      "severity": "blocking",
+      "suggestedAction": "Re-quote with the supplier before issuing; do not estimate."
+    }
+  ],
+  "quotationRef": "MRA-2027-0641",
+  "totals": {
+    "assumed": 19565,
+    "confirmed": 7225,
+    "indicative": 3950,
+    "allCosted": 30740,
+    "note": "Not sendable: 5 unresolved line(s) and unconfirmed (indicative) tariffs; resolve every needs_review item first.",
+    "sendable": false,
+    "unresolvedLineIds": [
+      "s08",
+      "s14",
+      "s16.r2",
+      "s18",
+      "s19"
+    ]
+  },
+  "travelDates": {
+    "end": "2027-07-17",
+    "start": "2027-07-05"
+  },
+  "travellers": 5
+}
